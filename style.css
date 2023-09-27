@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*font-family: 'Fuggles', cursive;
+
+ font-family: 'Croissant One', cursive;
+*/
+body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+  
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 300px) {
+    body {
+        background: url('images/op.png');
+    }
+  }
+  @media (min-width: 301px) and (max-width: 600px) {
+    body {
+        background: url('images/op.png');
+    }
+  }
+  @media (min-width: 601px) and (max-width: 768px) {
+    body {
+        background: url('images/op.png');
+    }
+  }
+  @media (min-width: 769px) {
+    body {
+        background: url('images/op.png');
+    }
+  }
+nav{
+   
+    background: white
+    
+}
+#jo li a{
+    font-family: 'Poppins', sans-serif;
+    color: #baab8f;  
+    font-size: 20px;
+}
+#jo li a:hover{
+    color: rgb(66, 59, 59);
+}
+.h1{
+    color:black;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card{
+    
+  margin-top: 90px;
+    margin-left: 100px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.socials{
+font-size: 1.5rem;
+margin: 0px;
+
+
+}
+.socials a{
+    
+    padding:0 20px 0 20px;
+    color: black;
+}
+.hh{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 0 30px;
+}
+.hy{
+    font-weight: 100;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+#butt a{
+   color: white;
+   padding: 10px 30px 10px 30px;
+   background-color: rgb(142, 142, 207);
+  font-weight: 700;
+   text-align: center;
+   border-radius: 25px;
+   text-decoration: none;
+}
+#butt a:hover{
+    color: black;
+    outline-style: solid;
+    outline-color:  rgb(142, 142, 207);;
+    background-color: transparent;
+    
+}
+#butt{
+   
+   
+   padding: 0;
+    border-radius: 25px;
+    
+}
+
+#button1 a{
+    padding: 8px 30px 8px 30px;  
+ color: black;
+ outline-color:  rgb(142, 142, 207);;
+outline-style: solid;
+ font-weight: 700;
+ border-radius: 25px;
+ 
+ text-decoration: none;
+}
+#button1 a:hover{
+    border-radius: 25px;
+  color: white;
+    background: rgb(142, 142, 207);
+}
+.here{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.para{
+    margin-top: 30px;
+    text-align: justify;
+}
+.paragraph{
+    text-align: center;
+}
+.hrr{
+    width: 20%;
+    
+    margin-top: 30px;
+    border-top: 2px solid  rgb(142, 142, 207);
+}
+#hp a{
+    color: #000;
+    margin-right: 0;
+    padding: 10px;
+}
+#about {
+    margin: 90px 0 90px 0;
+}
+#re{
+    border-radius: 0;
+}
+.profile{
+    margin-top: 50px;
+}
+/* @media only screen and (max-width: 900px) {
+    #re {
+        width: 40rem; height: 20rem; 
+    }
+  } */
+
+/* #butt2 a{
+    
+    outline-style: solid;
+    text-decoration: none;
+    padding: 10px;
+    padding: 9px;
+    padding-right: 20px;
+    padding-left: 30px;
+    border-radius: 25px;
+    margin: 20px 10px 10px 10px;
+    color: black;
+    outline-color:rgb(142, 142, 207) ;
+    mar
+} */
+
+
+
+/* .home{
+ background: black;
+    background: url('images/bg.png');
+    width: 100%;
+  
+    height: 100vh;
+    
+   }
+.home-content{
+ padding: 10%;
+    text-align: center;
+   
+    
+} */
